@@ -17,7 +17,6 @@ export function Hotel_AI() {
 
 	const hotelData = {
 		ai_agent_name: 'Gaurav',
-		hotel_name: 'Hotel Oriental',
 		hotel_id: '5297cae2-0179-46d6-9bc6-a68601f89cep',
 	};
 	const startConversation = useCallback(async () => {
