@@ -18,7 +18,7 @@ export function Hotel_new_AI() {
 	const hotel_data = [
 		`{
             hotel_name: 'Hotel Grand Residency',
-            hotel: {
+            hotel_data: {
                 location: 'Dehradun, Uttarakhand',
                 total_rooms: 10,
                 available_rooms: 4,
@@ -221,7 +221,7 @@ export function Hotel_new_AI() {
 					},
 				},
 				agentId: "oHDmdzH8NHekhO2qaAlN",
-				dynamicVariables: hotel_data,
+				// dynamicVariables: hotel_data,
 			});
 
 			console.log("Conversation started with ID:", conversationId);
