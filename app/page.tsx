@@ -1,13 +1,11 @@
 import { div } from "framer-motion/client";
 import Image from "next/image";
-import { Hotel_AI } from "./components/ai";
-
+import { Hotel_new_AI } from "./components/aiNew";
 
 export default function Home() {
   return (
-    <div>
-      <Hotel_AI>
-      </Hotel_AI>
+    <div style={{ backgroundColor: "#f0f0f0", padding: "20px" }}>
+      <Hotel_new_AI></Hotel_new_AI>
     </div>
   );
 }
